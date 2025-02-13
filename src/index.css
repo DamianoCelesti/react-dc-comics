@@ -12,3 +12,43 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 } */
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+header .px-5 {
+  padding-right: 13rem !important;
+  padding-left: 13rem !important;
+}
+
+/* FOOTER */
+.sfondo {
+  background-image: url('./assets/img/footer-bg.jpg');
+  background-size: cover;
+
+}
+
+footer .px-5 {
+  padding-right: 13rem !important;
+  padding-left: 13rem !important;
+}
+
+.container-logo {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-grande {
+  background-image: url('./assets/img/dc-logo-bg.png');
+  position: absolute;
+  background-repeat: no-repeat;
+  width: 40%;
+  height: 200%;
+  top: -50px;
+  left: 900px;
+}
