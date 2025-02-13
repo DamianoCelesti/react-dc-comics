@@ -2,7 +2,7 @@ export default function Header() {
     return (
         <header>
             <nav className="navbar px-5">
-                <a className="d-flex align-items-center">
+                <a>
                     <img src="./src/assets/img/dc-logo.png" alt="logo" srcset="" />
                 </a>
                 <ul className="nav">
