@@ -4,12 +4,12 @@ import Logo from "./Logo.jsx";
 // importo nav
 import Navbar from "./Nav.jsx";
 
-export default function Header() {
+export default function Header(props) {
     return (
         <header>
             <nav className="navbar px-5">
                 <Logo />
-                <Navbar />
+                <Navbar headerProps={props.appLink} />
 
                 {/* <ul className="nav">
                     <li className="nav-item"><a className="nav-link text-dark fw-bold" href="#">CHARACTERS</a></li>
