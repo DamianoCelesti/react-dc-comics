@@ -26,6 +26,31 @@ header .px-5 {
   padding-left: 13rem !important;
 }
 
+/* JUMBOTRON */
+.jumbo {
+  background-image: url("./assets/img/jumbotron.jpg");
+  height: 400px;
+}
+
+/* MAIN */
+
+main .px-5 {
+  padding-right: 13rem !important;
+  padding-left: 13rem !important;
+}
+
+main h5 {
+  margin-bottom: 0;
+}
+
+/* MAIN RIGA BLU */
+
+/* COMICS */
+.imgComics {
+  height: 200px;
+
+}
+
 /* FOOTER */
 .sfondo {
   background-image: url('./assets/img/footer-bg.jpg');
