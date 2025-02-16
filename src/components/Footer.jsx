@@ -7,7 +7,7 @@ export default function Footer() {
                     <div className="d-flex gap-5 text-white mt-5 mb-5">
                         <div>
                             <h5>DC COMICS</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled text-secondary">
                                 <li>Characters</li>
                                 <li>Comics</li>
                                 <li>Movies</li>
@@ -17,7 +17,7 @@ export default function Footer() {
                                 <li>News</li>
                             </ul>
                             <h5>SHOP</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled text-secondary">
                                 <li>Shop DC</li>
                                 <li>Shop DC Collectibles</li>
                             </ul>
@@ -26,7 +26,7 @@ export default function Footer() {
 
                         <div>
                             <h5>DC</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled text-secondary">
                                 <li>Terms Of Use</li>
                                 <li>Privacy policy (New)</li>
                                 <li>Ad Choices</li>
@@ -44,7 +44,7 @@ export default function Footer() {
 
                         <div>
                             <h5>SITES</h5>
-                            <ul className="list-unstyled">
+                            <ul className="list-unstyled text-secondary">
                                 <li>DC</li>
                                 <li>MAD Magazine</li>
                                 <li>DC Kids</li>
