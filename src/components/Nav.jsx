@@ -17,7 +17,7 @@ export default function Navbar(props) {
         <ul className="nav">
             {props.headerProps.map((link) => (
                 <li key={link.id} className="nav-item">
-                    <a className="nav-link text-dark fw-bold" href={link.url}>{link.text}</a>
+                    <a className="nav-link text-dark fw-bold link-primary" href={link.url}>{link.text}</a>
                 </li>
             ))}
 
